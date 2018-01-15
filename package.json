@@ -36,7 +36,14 @@
     "ember-resolver": "^4.0.0",
     "ember-source": "~2.17.0-beta.1",
     "ember-welcome-page": "^3.0.0",
-    "loader.js": "^4.2.3"
+    "loader.js": "^4.2.3",
+    "@opentok/client": "^2.12.2",
+    "autosize": "^4.0.0",
+    "bowser": "^1.8.1",
+    "pubnub": "^4.17.0",
+    "uuid": "^3.1.0",
+    "rails-timezone": "^1.0.0",
+    "ember-browserify": "1.2.1"
   },
   "engines": {
     "node": "^4.5 || 6.* || >= 7.*"
