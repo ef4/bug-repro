@@ -12,16 +12,7 @@ export default Controller.extend({
             console.log(2);
             return Promise.resolve().then(() => {
               console.log(3);
-              return Promise.resolve().then(() => {
-                console.log(4);
-                return Promise.resolve().then(() => {
-                  console.log(5);
-                  return Promise.resolve().then(() => {
-                    console.log(6);
-                    schedule('afterRender', () => console.log('THIS NEVER RUNS!!!!') )
-                  });
-                });
-              });
+              schedule('actions', () => console.log('THIS NEVER RUNS!!!!') )
             });
           })
         });
